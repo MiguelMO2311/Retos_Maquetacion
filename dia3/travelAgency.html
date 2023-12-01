@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./travelAgency.css">
+
+    <title>Travel Agency</title>
+</head>
+
+
+<body id="title">
+    <header>
+        <h1>Elite Travel, Corp.</h1>
+        <figure class="bloqUp">
+            <img class="LogAgency" src="Imagen_fondo_buscador.jpg" alt="">
+            <p>
+                <h3s>OFERTAS --- VIAJES DE ULTIMA HORA... muy economicos---</h3>
+            </p>
+        </figure>
+    </header>
+    <main>
+
+        <div>
+            <br>
+            <p class="texto_titulo">
+            <h2>Welcome to Elite Travel</h2>
+            <h3> "Viajes que nunca olvidaras, (....donde viajar es soñar..)"</h3>
+            </p>
+        </div>
+        <div>
+            <br>
+            <p>
+            <h3>Empresa lider en el sector con viajes con calidad premium a cualquier destino a nivel mundial. </h3>
+            </p>
+            <br>
+            <p>
+            <h3>Actualizandonos en viajes por la estratosfera y por el inexplorado mundo submarino</h3>
+            </p>
+        </div>
+    </main>
+    <span class="countainMainCard">
+        <article class="card">
+            <figure class="carBlog">
+                <p>
+                <h3>--OFERTAS!-- Last Minute...-</h3>
+                </p>
+                <img class="imageCard" src="Imagen_Card1_NewYork.jpg" alt="">
+                <img class="imageCard" src="Imagen_Card3_Roma.jpg" alt="">
+                <img class="imageCard" src="Imagen_Card4_Cancun.jpg" alt="">
+                <img class="imageCard" src="Imagen_Card2_Paris.jpg" alt="">
+            </figure>
+        </article>
+        <form id="contacts">
+
+            <label for="name">Nombre</label>
+            <input type="text" id="name">
+
+            <label for="origin">Origen</label>
+            <input type="text" id="origin">
+
+            <label for="destination">Destino</label>
+            <input type="text" id="destination">
+
+            <label for="numPeople">Nº Personas</label>
+            <input type="text" id="numPeople">
+
+            <label for="date">Fecha del viaje</label>
+            <input type="date" id="date">
+            <br>
+
+            <button type="button" : id="add-travel:pointer;" : onclick="addNewTravel()">Información</button>
+            <br>
+            <button type="button" id="add-travel:pointer" onclick="filterTravels()">Filtrar destino</button>
+        </form>
+
+        <div id="filter">
+            <ul id="travel-list"></ul>
+        </div>
+
+    </span>
+    <script src="./travelAgency.js"></script>
+</body>
+
+</html>
