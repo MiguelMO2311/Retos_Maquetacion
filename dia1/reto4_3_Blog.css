@@ -1,0 +1,56 @@
+.header {
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+
+    display: flex;
+    gap: 350px;
+}
+
+
+.menu_links {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.countainMainBlog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titleBlog {}
+
+
+.texto_titleBlog {}
+
+
+.cardBlog {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 500px;
+
+}
+
+.bloqBlog {
+    max-height: 500px;
+
+}
+
+.textoBloq {}
+
+.texto_parrafo {}

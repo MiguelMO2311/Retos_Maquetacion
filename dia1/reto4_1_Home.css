@@ -1,0 +1,71 @@
+.header {
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+
+    display: flex;
+    gap: 350px;
+}
+
+
+.menu_links {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.countainMain {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 630px;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+}
+
+.bloqHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenHome {
+    width: auto;
+    height: 100%;
+    max-height: 510px;
+
+}
+
+.textoBloqHome {
+    width: auto;
+    height: 100%;
+    max-height: 510px;
+
+}
+
+.texto_titulo {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.texto_parrafo {
+    font-size: medium;
+}
