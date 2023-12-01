@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    border-color: solid red 1px;
+    width: 100vw;
+    height: 84px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    letter-spacing: normal;
+    color-interpolation-filters: #ffffff, opacity 60.0%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 350px;
+}
+
+.menu_links {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.countainMainGaleria {
+    /* background-color: #0055ff; */
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    background-image: url("concepto-collage-html-css-persona.jpg");
+    background-repeat: no-repeat;
+    background-size: 160vw 100vh;
+}
+
+.img {
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 150px;
+    height: 200px;
+    justify-content: space-between;
+
+
+}
+
+span {
+    padding-top: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px bold;
+    color: #ffffff;
+}
+
+span:hover {
+    font-size: x-large;
+    color: #00881b;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100vw;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 30.6px;
+    letter-spacing: normal;
+    color-interpolation-filters: #ffffff, opacity 60.0%;
+    background-color: #040404;
+}
+
+.imagenfooter {
+    width: 100vw;
+    height: 250px;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    background-color: var(--secondary-color);
+    /* Secondary color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #00881b;
+
+}
