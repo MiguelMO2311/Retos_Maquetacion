@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    color: aliceblue;
+    background-color: rgb(53, 145, 225);
+    --myfontFamily: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 100vw;
+    height: auto;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    background-color: blue;
+    color-interpolation-filters: #ffffff, opacity 60.0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-right: 40px;
+    font-size: xx-large;
+}
+
+span {
+    color: #11f492;
+}
+
+span:hover {
+    color: rgb(54, 115, 212);
+}
+
+.menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+    gap: 50px;
+    font-size: x-small;
+
+}
+
+.menu_links {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-family: var(--myfontFamily);
+}
+
+.menu_links:hover {
+    background-color: rgb(54, 115, 212);
+    color: black
+}
+
+.container {
+    padding-top: 50px;
+    margin-bottom: 150px;
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.textoBloqHome {
+    width: 200px;
+    height: 50px;
+    padding: 0 10%;
+
+}
+
+#contacts {
+
+    width: 600px;
+    height: 450px;
+    /* padding-top: 250px; */
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.text {
+    width: 400px;
+}
+
+.bloqBody {
+    width: 600px;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.imagenBody {
+    position: relative;
+    left: 150px;
+
+    padding-top: 80px;
+    padding-left: 100px;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    padding-bottom: 120px;
+    border-radius: 50%;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100vw;
+    height: 60px;
+    font-size: 18px;
+    background-color: blue;
+
+}
+
+.imagenFooter {
+    width: 50px;
+    height: 60px;
+}
+
+button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: rgba(0, 0, 255, 0.825);
+}
