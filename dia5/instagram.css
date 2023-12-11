@@ -1,0 +1,200 @@
+*{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
+text-align: center;
+
+color:#000000;
+background-color: #ffffff;
+font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+width: 1263px;
+height: 645px;
+
+}
+.bigBloq{
+
+width: 717px;
+height: 597px;
+display: flex;
+border:1px solid;
+box-shadow: none;
+border-radius: 1px;
+padding: 10px 10px;
+margin-bottom: 10px;
+}
+.section1{
+
+align-items: center;
+border-radius: 1px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+flex-shrink: 0;
+font: inherit;
+font-size: 100%;
+margin: 0 0 10px;
+padding: 10px 0;
+position: relative;
+vertical-align: baseline;
+
+}
+.instagram{
+width: 174px;
+height: 50px;
+font-size: 14px;
+line-height:8px;
+text-align:start;
+letter-spacing:normal;
+
+}
+label{
+width: 251px;
+height: 20px;
+color:#000000;
+background-color: #fafafa;
+padding: 9px 0px 7px 8px;
+
+}
+.usuario{
+
+width: 251px;
+height: 20px;
+font-size: 16px;
+line-height: 18px;
+text-align: left;
+letter-spacing: normal;
+color:#000000;
+background-color: #fafafa;
+padding: 9px 0px 7px 8px;
+
+}
+.constraseña{
+width: 251px;
+height: 20px;
+font-size: 14px;
+line-height: 18px;
+text-align: start;
+letter-spacing: normal;
+color:#000000;
+background-color: #fafafa;
+padding: 9px 0px 7px 8px;
+
+}
+.entrar{
+width: 268px;
+height: 32px;
+font-size: 14px;
+line-height: 18px;
+/* text-align: start; */
+letter-spacing: normal;
+color:#ffffff;
+background-color: #0095f6;
+border-radius: 5px;
+margin: 8px 40px 8px 40px;
+
+}
+.O{
+width: 268px;
+height: 14px;
+font-size: 13px;
+line-height: 14.9994px;
+/* text-align: start; */
+letter-spacing: normal;
+margin-left: 18px;
+margin-right: 18px;
+
+}
+.inicioSesionF{
+width: auto;
+height: auto;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+letter-spacing: normal;  
+
+}
+.olvidoContraseña{
+    width: 348px;
+height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: normal; 
+}
+.denunciaContenido{
+    width: 284px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: normal;
+    margin:-2px -3px;
+
+}
+
+.section2{
+
+}
+.registrate{
+    width: 211px;
+height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: start;
+    letter-spacing: normal;
+
+}
+span{
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #0095f6;
+
+}
+.section3{
+    width: 350px;
+    height: 94px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: start;
+    letter-spacing: normal;
+
+}
+.descargaApp{
+    width: 310px;
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: start;
+    letter-spacing: normal;
+
+}
+.section4{
+
+}
+.logos{
+    width: 564px;
+height: 168px;
+
+}
+
+img{
+    width: 134px;
+    height: 43px;
+    flex-wrap: nowrap;
+
+} 
+footer{
+    
+}
+.footer1{
+
+}
+.footer2{
+    
+}

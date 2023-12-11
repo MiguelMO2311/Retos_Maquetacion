@@ -1,0 +1,49 @@
+*{
+    display: block;
+    margin: 0;
+    color:white;
+}
+
+.son {
+min-width: 100px;
+min-height: 170px;
+display: flex;
+justify-content: center;
+align-items: start;
+}
+.container {
+
+display: grid;
+justify-content: center;
+
+grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+grid-template-rows: 2fr 1fr;
+
+} 
+
+.a {
+background-color: green;
+color:black
+}
+
+.b {
+background-color:black;
+}
+
+.c {
+background-color: green;
+color:black
+}
+
+.d {
+background-color:black;
+}
+
+.e {
+background-color:green;
+color:black
+}
+
+.f {
+background-color: black;
+}

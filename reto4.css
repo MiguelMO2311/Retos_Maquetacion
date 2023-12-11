@@ -1,0 +1,116 @@
+* {
+    display: block;
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    padding: 15 px;
+
+}
+
+.headers {
+    height: 100px;
+    display: grid;
+    grid-template-areas: "header header header imagen";
+    color: white;
+}
+
+.header {
+    grid-area: header;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.imagen {
+    grid-area: imagen;
+    background-color: rgb(82, 7, 7);
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+}
+
+
+
+.container {
+    height: 748px;
+    display: grid;
+    grid-template-areas: "asides contenidos contenidos";
+
+}
+
+.asides {
+    grid-area: asides;
+    background-color: rgb(232, 90, 43);
+    display: grid;
+    grid-template-areas: "aside1" "nada" "nada" "aside2";
+    padding: 10px;
+
+
+}
+
+.aside1 {
+    grid-area: aside1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: orangered
+}
+
+.aside2 {
+    grid-area: aside2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: orangered
+}
+
+
+
+.contenidos {
+    grid-area: contenidos;
+    background-color: orangered;
+    display: grid;
+    grid-template-areas: "contenido" "texto";
+    color: white;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.contenido {
+    grid-area: contenido;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+.texto {
+    grid-area: texto;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+
+.footers {
+    height: 100px;
+    display: grid;
+    grid-template-areas: "footer footer footer footer";
+    background-color: rgb(82, 7, 7);
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+}
